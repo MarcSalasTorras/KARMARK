@@ -1,0 +1,52 @@
+.control
+    background-color: rgba(255, 255, 255, 0.7)
+    height: 100%
+    width: 100%
+
+    button
+        background-color: transparent
+        border: 0
+    .controlheader
+        height: 10vh
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        button
+            color: black
+            padding: 0
+            margin-top: 10px
+            font-size: 300%
+        &__home
+            margin-left: 20px
+        &__menu
+            margin-right: 20px
+    .controlbody
+        height: 80vh
+        display: flex
+        flex-wrap: wrap
+        button
+            margin: 0
+            font-size: 500%
+            margin-bottom: 10%
+            outline: none
+        &__arrowup, &__arrowdown
+            padding: 0
+            color: FIREBRICK
+            width: 100%
+        &__arrowleft
+            color: FIREBRICK
+            width: 50%
+            padding-right: 7%
+        &__arrowright
+            color: FIREBRICK
+            width: 50%
+            padding-left: 7%
+        &__arrowup:active, &__arrowdown:active, &__arrowleft:active, &__arrowright:active   
+            color: yellow
+@media only screen and (min-width: 700px)
+    .controlheader, .controlbody
+        font-size: 150%
+@media only screen and (min-width: 800px)
+    .controlheader, .controlbody
+        font-size: 250%
+

@@ -1,1 +1,3 @@
-# KARMARK
+# karmark
+
+[Documentation](karmark-doc)

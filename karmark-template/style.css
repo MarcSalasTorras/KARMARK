@@ -1,0 +1,271 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100vw;
+}
+body textarea:focus, body input:focus {
+  outline: none;
+}
+body .divlogin, body .divregister, body .divhome, body .divprograme, body .divcontrol {
+  margin-right: 0;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://wallpapershome.com/images/pages/pic_v/17125.jpg");
+}
+body .divprograme, body .divcontrol {
+  background-image: url("https://image.freepik.com/foto-gratis/fondo-madera-madera-textura-patron-wallpaper-concepto_53876-14103.jpg");
+}
+
+.login {
+  margin-left: 14.5%;
+  margin-top: 40%;
+  height: 50%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+.login__tittle {
+  margin-top: 15%;
+  margin-bottom: 20%;
+  height: 5%;
+  width: 50%;
+  align-self: center;
+}
+.login__username, .login__password {
+  text-align: center;
+  border: 0;
+  border-bottom: 2px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 15%;
+  height: 5%;
+  width: 50%;
+  align-self: center;
+  color: black;
+}
+.login__username::-webkit-input-placeholder, .login__password::-webkit-input-placeholder {
+  color: black;
+}
+.login__button {
+  align-self: center;
+  height: 8%;
+  width: 50%;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+.register {
+  margin-left: 14.5%;
+  margin-top: 30%;
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+.register__tittle {
+  margin-top: 15%;
+  margin-bottom: 20%;
+  height: 5%;
+  width: 50%;
+  align-self: center;
+}
+.register__name, .register__surname, .register__username, .register__password {
+  text-align: center;
+  border: 0;
+  border-bottom: 2px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 10%;
+  height: 5%;
+  width: 50%;
+  align-self: center;
+  color: black;
+}
+.register__name::-webkit-input-placeholder, .register__surname::-webkit-input-placeholder, .register__username::-webkit-input-placeholder, .register__password::-webkit-input-placeholder {
+  color: black;
+}
+.register__button {
+  align-self: center;
+  height: 8%;
+  width: 50%;
+  border: 2px solid black;
+  background-color: transparent;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://image.freepik.com/foto-gratis/fondo-madera-madera-textura-patron-wallpaper-concepto_53876-14103.jpg");
+  width: 100%;
+  height: 100%;
+}
+.homeheader {
+  color: white;
+  background-color: #814717d7;
+  border-radius: 10px;
+  height: 10%;
+  width: 100%;
+  display: flex;
+}
+.homeheader__user {
+  align-self: center;
+  margin-left: 29%;
+  padding: 0;
+}
+.homeheader__button {
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border: 0;
+  margin-left: 10%;
+}
+.homemenu {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.homemenu__programe, .homemenu__control {
+  font-size: 20px;
+  align-self: center;
+  color: black;
+  height: 30%;
+  width: 85%;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 10%;
+  background-color: #ffffffbb;
+}
+.homemenu__control {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.programe {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  width: 100%;
+}
+.programe button {
+  background-color: transparent;
+  border: 0;
+}
+.programe .programeheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.programe .programeheader button {
+  color: black;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 300%;
+}
+.programe .programeheader__home {
+  margin-left: 20px;
+}
+.programe .programeheader__menu {
+  margin-right: 20px;
+}
+.programe .programebody {
+  margin-top: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.programe .programebody button {
+  padding: 0;
+  margin: 0;
+  font-size: 500%;
+  margin-bottom: 10%;
+}
+.programe .programebody__arrowup, .programe .programebody__arrowdown {
+  color: FIREBRICK;
+  width: 100%;
+}
+.programe .programebody__arrowleft, .programe .programebody__go, .programe .programebody__arrowright {
+  color: FIREBRICK;
+  width: 33.3%;
+}
+.programe .programebody__go {
+  color: darkgreen;
+}
+.programe .programefooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 17%;
+}
+.programe .programefooter button {
+  color: black;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 300%;
+}
+.programe .programefooter__save {
+  margin-left: 20px;
+}
+.programe .programefooter__stop {
+  margin-right: 20px;
+}
+
+.control {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  width: 100%;
+}
+.control button {
+  background-color: transparent;
+  border: 0;
+}
+.control .controlheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.control .controlheader button {
+  color: black;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 300%;
+}
+.control .controlheader__home {
+  margin-left: 20px;
+}
+.control .controlheader__menu {
+  margin-right: 20px;
+}
+.control .controlbody {
+  margin-top: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.control .controlbody button {
+  margin: 0;
+  font-size: 500%;
+  margin-bottom: 10%;
+}
+.control .controlbody__arrowup, .control .controlbody__arrowdown {
+  padding: 0;
+  color: FIREBRICK;
+  width: 100%;
+}
+.control .controlbody__arrowleft {
+  color: FIREBRICK;
+  width: 50%;
+  padding-right: 7%;
+}
+.control .controlbody__arrowright {
+  color: FIREBRICK;
+  width: 50%;
+  padding-left: 7%;
+}
+
+/*# sourceMappingURL=style.css.map */
